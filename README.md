@@ -1,2 +1,2 @@
-# pymijob.github.io
-Try a new web
+# pymijob
+Try a new web with Flask and HTML
