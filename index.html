@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>IT Jobs for Pymiers</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">IT JOBS</a></h1>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title">Danh sách các việc làm IT cho Pymier</h1>
+<footer class="post-info">
+        <abbr class="published" title="2023-03-28T00:00:00+07:00">
+                Published: T3 28 Tháng 3 2023
+        </abbr>
+
+        <address class="vcard author">
+                <br>By                         <a class="url fn" href="/author/dvCanh05.html">dvCanh05</a>
+        </address>
+<p>In <a href="/category/trang-chu.html">Trang chủ</a>.</p>
+<p>tags: <a href="/tag/python.html">python</a> <a href="/tag/django.html">django</a> <a href="/tag/flask.html">flask</a> </p>
+</footer><!-- /.post-info --><h2>Dữ liệu việc làm được lấy từ</h2>
+<p><a href="https://github.com/awesome-jobs/vietnam/issues">https://github.com/awesome-jobs/vietnam/issues</a></p>
+<h2>Học Python tại Hà Nội, Sài Gòn tại <a href="https://PyMI.vn">PyMI.vn</a></h2>
+<p>Trang web được thiết kế chưa chuyên nghiệp lắm bởi một Pymier</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>Danh sách việc làm:</h2>
+                        <ul>
+                            {% for job in jobs %}
+                            <li><a href={{job.link}}>{{job.name}}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div><!-- /.blogroll -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
